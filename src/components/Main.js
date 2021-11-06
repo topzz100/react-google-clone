@@ -17,7 +17,7 @@ const Main = () => {
     <main>
     <div class="logo">
       
-      {changeLogo()/* <img src="/logo.jpg" alt=""/> */}
+      {changeLogo()}
     </div>
     <div class="search-box">
       <i class="fas fa-search"></i>

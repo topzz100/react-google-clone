@@ -81,15 +81,19 @@ main {
 }
 .logo {
   max-width: 400px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .logo img {
   width: 100%;
+  object-fit: cover;
 }
 .textValue {
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 2.3rem;
+  font-weight: 800;
   text-align: center;
+  margin-bottom: 10px;
+  color: rgb(10, 173, 10);
+  margin: 12px;
 }
 .search-box {
   border: 1px solid rgba(128, 128, 128, 0.2);
@@ -99,6 +103,7 @@ main {
   justify-content: center;
   align-items: center;
   border-radius: 25px;
+  margin-top: 15px;
   margin-bottom: 25px;
 }
 .search-box input {
@@ -220,7 +225,7 @@ footer {
     font-size: 0.7rem;
   }
   .logo {
-    width: 280px;
+    max-width: 280px;
   }
   .search-box {
     padding: 10px;
@@ -244,6 +249,12 @@ footer {
   }
   .lang-options span {
     margin: 0 4px;
+  }
+  .footer-links {
+    padding: 5px;
+  }
+  .footer-links ul {
+    margin: 10px 0;
   }
 }
 @media (max-height: 560px) {
