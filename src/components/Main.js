@@ -8,7 +8,7 @@ const Main = () => {
     if(value !== ""){ 
       return <h2 className = "textValue">{value}</h2>
     }else{
-      return  <img src="/logo.jpg" alt=""/>
+      return  <img src="/logo.png" alt=""/>
     }
   }
 
