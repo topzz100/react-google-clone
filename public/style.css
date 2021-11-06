@@ -62,10 +62,12 @@ body {
   text-align: center;
 }
 .account-id a {
+  font-weight: 700;
   text-decoration: none;
   color: white;
   text-transform: uppercase;
   font-size: 1.3rem;
+  margin: auto;
 }
 
 /*  ***********  main  ********** */
@@ -189,7 +191,16 @@ footer {
   .search-box {
     width: 90%;
   }
+  .btn button {
+    font-size: 0.8rem;
+    background-color: rgba(128, 128, 128, 0.05);
+    border: none;
+    padding: 7px 10px;
+    margin: 0 3px;
+    border-radius: 4px;
+  }
   .lang-options {
+    font-size: 0.8rem;
     text-align: center;
     margin: 0 10px;
   }
@@ -201,6 +212,34 @@ footer {
   .footer-links ul {
     margin: 15px 0;
     flex-wrap: wrap;
+  }
+}
+@media (max-width: 450px) {
+  .logo {
+    width: 280px;
+  }
+  .search-box {
+    padding: 10px;
+  }
+  .links li {
+    margin-left: 10px;
+  }
+  .menu-icon {
+    margin-left: 13px;
+  }
+  .account-id {
+    width: 28px;
+    height: 28px;
+    padding: 3px;
+
+    margin-left: 10px;
+    text-align: center;
+  }
+  .account-id a {
+    font-size: 1.2rem;
+  }
+  .lang-options span {
+    margin: 0 4px;
   }
 }
 @media (max-height: 560px) {
