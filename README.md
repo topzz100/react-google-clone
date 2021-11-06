@@ -1,10 +1,11 @@
- # deployed app 
-  ## https://baratheon-react-app.netlify.app/
-
-This app was deployed on netlify
 
 # react-google-clone
  a google clone react app
+
+# deployed app 
+  ## https://baratheon-react-app.netlify.app/
+
+This app was deployed on netlify
  
  # Getting Started 
 
