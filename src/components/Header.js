@@ -11,7 +11,7 @@ const Header = () => {
             <a href="#">Gmail</a>
           </li>
           <li>
-            <a href="#">Image</a>
+            <a href="#">Images</a>
           </li>
         </ul>
         <div class="menu-icon">

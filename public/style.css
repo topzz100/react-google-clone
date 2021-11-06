@@ -7,7 +7,7 @@
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
 }
 
@@ -191,6 +191,7 @@ footer {
   }
   .lang-options {
     text-align: center;
+    margin: 0 10px;
   }
   .footer-links {
     flex-direction: column;
@@ -200,5 +201,10 @@ footer {
   .footer-links ul {
     margin: 15px 0;
     flex-wrap: wrap;
+  }
+}
+@media (max-height: 560px) {
+  footer {
+    display: none;
   }
 }
