@@ -132,6 +132,7 @@ main {
 .lang-options {
   font-size: 0.8rem;
 }
+
 .lang-options a {
   text-decoration: none;
 }
@@ -215,6 +216,9 @@ footer {
   }
 }
 @media (max-width: 450px) {
+  .nav-links {
+    font-size: 0.7rem;
+  }
   .logo {
     width: 280px;
   }
@@ -236,7 +240,7 @@ footer {
     text-align: center;
   }
   .account-id a {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
   }
   .lang-options span {
     margin: 0 4px;
