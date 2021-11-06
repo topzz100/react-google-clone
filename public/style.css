@@ -80,12 +80,11 @@ main {
   align-items: center;
 }
 .logo {
-  max-width: 400px;
-  margin-bottom: 10px;
+  width: 100%;
+  margin: 10px;
 }
 .logo img {
-  width: 100%;
-  object-fit: cover;
+  width: 400px;
 }
 .textValue {
   font-size: 2.3rem;
