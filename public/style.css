@@ -135,6 +135,9 @@ main {
 }
 .lang-options {
   font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .lang-options a {
@@ -245,6 +248,13 @@ footer {
   }
   .account-id a {
     font-size: 1rem;
+  }
+  .lang-options {
+    flex-direction: column;
+    text-align: center;
+  }
+  .lang-options p:last-child {
+    margin-top: 7px;
   }
   .lang-options span {
     margin: 0 4px;

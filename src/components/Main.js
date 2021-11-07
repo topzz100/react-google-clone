@@ -34,11 +34,12 @@ const Main = () => {
     </div>
 
     <div class="lang-options">
-      <p>Google offered in: <span><a href="#"> Hausa</a></span>
+      <p className = "off">Google offered in:</p>
+      <p> <span><a href="#"> Hausa</a></span>
         <span><a href="#"> Igbo</a></span>
         <span><a href="#"> Ede Yoruba</a></span>
         <span><a href="#">Nigerian Pidgin</a></span>
-        </p>
+      </p>
     </div>
   
   </main>
