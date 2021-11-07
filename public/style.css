@@ -240,7 +240,8 @@ footer {
   .logo{
     padding: 5px
   }
-  .text value{
+  .textValue{
+    width:95%;
     padding: 5px;
   }
   .search-box {
