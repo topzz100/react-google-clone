@@ -121,13 +121,17 @@ main {
 
 .btn {
   margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .btn button {
   font-size: 0.9rem;
   background-color: rgba(128, 128, 128, 0.05);
   border: none;
   padding: 9px 12px;
-  margin: 0 5px;
+  margin: 2px 5px;
   border-radius: 5px;
 }
 .btn button:hover {
