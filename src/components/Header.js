@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <>
     <nav>
-      <div class="nav-links">
-        <ul class="links">
+      <div className="nav-links">
+        <ul className="links">
           <li>
             <a href="#">Gmail</a>
           </li>
@@ -14,10 +14,10 @@ const Header = () => {
             <a href="#">Images</a>
           </li>
         </ul>
-        <div class="menu-icon">
+        <div className="menu-icon">
           <img src="/menu-icon.png" alt=""/>
         </div>
-        <div class="account-id">
+        <div className="account-id">
           <a href="#">t</a>
         </div>
 
