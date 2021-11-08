@@ -4,11 +4,11 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div class ="country">
+        <div className ="country">
           <p>Nigeria</p>
         </div>
-        <div class="footer-links">
-          <ul class="links-1">
+        <div className="footer-links">
+          <ul className="links-1">
             <li>
               <a href="#">About</a>
             </li>
@@ -24,7 +24,7 @@ const Footer = () => {
           </ul>
     
           <p>Carbon neutral since 2007</p>
-          <ul class="links-2">
+          <ul className="links-2">
             <li>
               <a href="#">Privacy</a>
             </li>
