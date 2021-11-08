@@ -6,7 +6,7 @@ const Main = () => {
   
   const changeLogo = ()=>{
     if(value !== ""){ 
-      return <h2 className = "textValue">{value}</h2>
+      return <div  className = "textValue"><h2>{value}</h2></div>
     }else{
       return  <img src="/logo.png" alt=""/>
     }
