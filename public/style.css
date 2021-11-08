@@ -248,6 +248,12 @@ footer {
   .logo img {
     max-width: 280px;
   }
+  .logo{
+    padding: 5px
+  }
+  .textValue{
+    padding: 5px;
+  }
   .search-box {
     padding: 10px;
   }
