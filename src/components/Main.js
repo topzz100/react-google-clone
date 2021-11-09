@@ -15,25 +15,25 @@ const Main = () => {
   return (
     <>
     <main>
-    <div class="logo">
+    <div className="logo">
       
       {changeLogo()}
     </div>
-    <div class="search-box">
-      <i class="fas fa-search"></i>
+    <div className="search-box">
+      <i className="fas fa-search"></i>
       <input type="text" value = {value} onChange = {(e) => { 
         setValue(e.target.value)
         console.log(value)
       } }/>
-      <i class="fas fa-microphone"></i>
+      <i className="fas fa-microphone"></i>
     </div>
 
-    <div class="btn">
-      <button class="btn-black">Google Search</button>
-      <button class="btn-white">I'm Feeling Lucky</button>
+    <div className="btn">
+      <button className="btn-black">Google Search</button>
+      <button className="btn-white">I'm Feeling Lucky</button>
     </div>
 
-    <div class="lang-options">
+    <div className="lang-options">
       <p className = "off">Google offered in:</p>
       <p> <span><a href="#"> Hausa</a></span>
         <span><a href="#"> Igbo</a></span>
